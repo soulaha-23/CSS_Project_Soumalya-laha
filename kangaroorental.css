@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 130px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+#hc
+{
+    height: 150px;
+    width: 400px;
+
+padding-top: 58px;
+    border: none;
+
+}
+
+
+.logo
+{
+    height: 120px;
+    width: 400px;
+    margin-left: 20px;
+    
+}
+nav{
+    height: 60px;
+    width: auto;
+    background-color: #eb790ee7;
+    display: flex;
+    
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+.navdiv
+{
+    height: 60px;
+    width: 100px;
+    border:none;
+    margin-left:20px ;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700 ;
+    color: #172b55;
+    
+}
+a:hover{
+    color: brown;
+}
+.middlepage
+{
+    height: 2000px;
+    width: auto;
+    justify-content: center;
+    
+}
+#upd
+{
+    height: 450px;
+    width: auto;
+    padding-top: 100px;
+    padding-left: 70px;
+    background-image: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url(Home-banner-new.jpg);
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+.cardiv
+{
+    height: 430px;
+    width: 1295px;
+    border-top: 2px solid #000;
+
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+.cardetails
+{
+    height: 410px;
+    width: 400px;
+    border: none;
+    
+}
+.carimg,.carimg1,.carimg2
+{
+    height: 340px;
+    width: 400px;
+    border: none;
+    background-position: center;
+    background-size: cover ;
+    background-image: url(YARIS.png);
+    
+}
+.carimg
+{
+    background-image: url(YARIS.png);
+    
+}
+.carimg1
+{
+    background-image: url(YARIS-CROSS.png);
+}
+.carimg2
+{
+    background-image: url(GRAND-CARNIVAL.png);
+}
+.heading
+{
+    height: 200px;
+    width: 400px;
+    border:none;
+
+}
+.hlogo
+{
+    height: 100px;
+    width: 400px;
+    background-color: #faaf3b;
+    border-radius: 20px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    justify-content: space-around;
+}
+
+.paragraph
+{
+    height: 240px;
+    width: 1295px;
+    margin-left: 20px;
+    justify-content: center;
+    border:none;
+
+    font-family: 'Open Sans', sans-serif !important;
+
+
+
+}
+ul{
+    display: block;
+    list-style-type: none;
+    padding-inline-start: 40px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+p
+{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif !important;
+    line-height: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0%;
+    margin-inline-end: 0%;
+    color: #000;
+}
+.divsearch
+{
+    
+    height: 250px;
+    width: 1200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upers
+{
+    height: 125px;
+    width: 1000px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #eb790ee7;
+}
+.a,.lb
+{
+    height: 56px;
+    width: 200px;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 9px;
+    border: none;
+}
+
+#ts,#phold
+{
+    height: 56px;
+    width: 1000px;
+    border: none;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+.palacehold{
+    width: 200px;
+    height: 45px;
+    margin-left:30px;
+    
+    color:#aaa;
+    
+    font-size: large;
+    border-radius: 5px;
+    padding: 0 5px;
+    display: block;
+    cursor: pointer;
+}
+input
+{
+    border:1px solid #aaa;
+
+}
+.lowrs
+{
+    height: 125px;
+    width: 1000px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:rgba(235, 121, 14, 0.5);;
+}
+#checkbox{
+    height: 40x;
+    width: 400px;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+#headbox
+{
+    height: 50px;
+    width: 1000px;
+    border:none;
+    display: flex;
+    justify-content: flex-end;
+}
+.headwrite
+{
+    height: 50px;
+    width: 250px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #eb790ee7;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 10px;
+    color: whitesmoke;
+    font-size: x-large;
+
+
+}
+.lastpart
+{
+    height: 500px;
+    width: 100%;
+    background-color:#172b55;
+
+}
+.upfooter
+{
+    height: 300px;
+    width: auto;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.downfooter
+{
+    height: 100px;
+    width: auto;
+    border: none;
+    margin-top: 50px;
+
+}
+
+.upleft{
+    margin-top:50px;
+    
+    height: 200px;
+    width: 400px;
+    border: none;
+
+
+    
+}
+.upmiddile{
+    margin-top:50px;
+
+    height: 400Spx;
+    width: 300px;
+    border: none;
+
+}
+.upright{
+    margin-top:50px;
+
+    height: 200px;
+    width: 300px;
+    border: none;
+
+}
+h1
+{
+ 
+    padding-top: 30px;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    
+    
+
+}
+#cp{
+height: 350px;
+width: 500px;
+background-image: url(UNADJUSTEDNONRAW_thumb_1806.jpg);
+background-position: center;
+background-size: cover;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+}
+h3
+{
+    color: white;
+    font-family: 'Open Sans', sans-serif !important;
+
+
+}
+.md
+{
+
+height: 300px;
+width: 300px;
+border:none;
+margin-left: 60px;
+color: white;
+line-height: 25px;
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h5{
+    color:#faaf3b;
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+/* li
+{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color: white;
+    font-family: 'Open Sans', sans-serif !important;
+    list-style-type: disc;
+    font-size: 16px;
+    padding-left: 20px;
+    margin: 0px;
+    text-align: left;
+    vertical-align: top;
+} */
+
+
+
+p{
+    font-weight: 500;
+}

@@ -1,0 +1,255 @@
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+header{
+height: 130px;
+width: 100%;
+font-family: 'Open Sans', sans-serif !important;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+#hc
+{
+height: 150px;
+width: 400px;
+
+padding-top: 58px;
+border: none;
+
+}
+
+
+.logo
+{
+height: 120px;
+width: 400px;
+margin-left: 20px;
+
+}
+nav{
+height: 60px;
+width: auto;
+background-color: #eb790ee7;
+font-family: 'Open Sans', sans-serif !important;
+
+}
+aside
+{
+    height: 2000px;
+    width: 1295px;
+    
+    margin-left: 20px;
+
+    
+}
+.bars
+{
+    height: 50px;
+    width: 1295px;
+    border: 1px solid #faaf3b;
+    margin-left: 20px;
+    
+}
+
+#searchall
+{
+    height: 300px;
+    width: 1000px;
+    border: #172b55 2px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sbar
+{
+    height: 200px;
+    
+    border: 1px solid #faaf3b;
+    display: block;
+    width: 100%;
+
+}
+.bookinglevel
+{
+  display: block;
+  font-weight: 700px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5px;
+  color: #faaf3b;
+  display: block;
+}
+.palacehold{
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    color:#aaa;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 0 5px;
+    display: block;
+    cursor: pointer;
+}
+.sbar2
+{
+    position: relative;
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+}
+.barhalf
+{
+    width: 50%;
+    margin-bottom: 0;
+    float: left;
+    position: relative;
+}
+.level
+{
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    color:#aaa;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 0 5px;
+    display: block;
+    cursor: pointer;
+}
+.line
+{
+    width:1295px;
+    height: 1000px;
+    border-top: 1px solid #faaf3b;
+    display: flex;
+}
+.lastpart
+{
+    height: 500px;
+    width: 100%;
+    background-color:#172b55;
+
+}
+.upfooter
+{
+    height: 300px;
+    width: auto;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.downfooter
+{
+    height: 100px;
+    width: auto;
+    border: none;
+    margin-top: 50px;
+
+}
+
+.upleft{
+    margin-top:50px;
+    
+    height: 200px;
+    width: 400px;
+    border: none;
+
+
+    
+}
+.upmiddile{
+    margin-top:50px;
+
+    height: 400Spx;
+    width: 300px;
+    border: none;
+
+}
+.upright{
+    margin-top:50px;
+
+    height: 200px;
+    width: 300px;
+    border: none;
+
+}
+h1
+{
+ 
+    padding-top: 30px;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    
+    
+
+}
+#cp{
+height: 350px;
+width: 500px;
+background-image: url(UNADJUSTEDNONRAW_thumb_1806.jpg);
+background-position: center;
+background-size: cover;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+h3
+{
+    color: white;
+    font-family: 'Open Sans', sans-serif !important;
+
+
+}
+.md
+{
+
+height: 300px;
+width: 300px;
+border:none;
+margin-left: 60px;
+color: white;
+line-height: 25px;
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h5{
+    color:#faaf3b;
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+/* li
+{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color: white;
+    font-family: 'Open Sans', sans-serif !important;
+    list-style-type: disc;
+    font-size: 16px;
+    padding-left: 20px;
+    margin: 0px;
+    text-align: left;
+    vertical-align: top;
+} */
+
+
+
+p{
+    font-weight: 500;
+}
